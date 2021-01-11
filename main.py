@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-print("Docker is magic!"
+print("Docker is magic!")
 
 
-python3n --version)
+python3 --version
