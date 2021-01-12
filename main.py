@@ -2,5 +2,3 @@
 
 print("Docker is magic!")
 
-
-python3 --version
