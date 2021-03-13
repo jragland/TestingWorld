@@ -1,5 +1,8 @@
-FROM alpine:latest
+# Use debian, slim version, to get a familiar environment
+# For local testing - docker run --rm -it debian:buster-slim /bin/bash
+FROM debian:buster-slim
 
-RUN apk update
+# Run updates for Ubuntu
+RUN apt-get -y update && apt-get -y upgrade
 
-RUN echo "Hello, Dumbass"
+CMD echo "Hello, Dumbass"
